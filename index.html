@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="overlay.css">
+  <script src="main.js" defer></script>
+  <title>Frontend Mentor | E-commerce product page</title>
+</head>
+<body>
+    <div class="backdrop"></div>
+    <header>
+        <div class="header-container">
+            <div class="logoBox">
+                <img src="./images/icon-menu.svg" alt="icon-menu" class="menu open-menu">
+                <img src="./images/logo.svg" alt="logo">
+            </div>
+            <div class="sidebar">
+                <img src="./images/icon-close.svg" alt="icon-close" class="menu close-menu">
+                <ul class="nav">
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="user-acc">
+            <img src="./images/icon-cart.svg" alt="icon-cart" class="cart">
+            <span class="itemCount">1</span>
+            <img src="./images/image-avatar.png" alt="image-avatar" class="avatar">
+        </div>
+        <div class="cart-items-box">
+            <h3>Cart</h3> 
+            <div class="item-box">
+                <p>Your cart is empty.</p>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="image-container">
+            <div class="product-image">
+                <img src="./images/image-product-1.jpg" alt="image-product-1" class="image" id="hero">
+            </div>
+            <div class="arrow-icons-container">
+                <span class="previous arrow" id="prev">
+                    <img src="./images/icon-previous.svg" alt="icon-previous">
+                </span>
+                <span class="next arrow" id="next">
+                    <img src="./images/icon-next.svg" alt="icon-next">
+                </span>
+            </div>
+            <ul class="thumbnails">
+                <li class="active"><img src="./images/image-product-1-thumbnail.jpg" class="thumbnail" alt="thumbnail"></li>
+                <li><img src="./images/image-product-2-thumbnail.jpg" class="thumbnail" alt="thumbnail"></li>
+                <li><img src="./images/image-product-3-thumbnail.jpg" class="thumbnail" alt="thumbnail"></li>
+                <li><img src="./images/image-product-4-thumbnail.jpg" class="thumbnail" alt="thumbnail"></li>
+            </ul>
+        </div>
+
+        <div class="text-container">
+            <small>Sneaker Company</small>
+            <h1 id="title">Fall Limited Edition Sneakers</h1>
+            <p>These low-profile sneakers are your perfect casual wear companion. Featuring a 
+            durable rubber outer sole, they’ll withstand everything the weather can offer.
+            </p>
+
+            <div class="price-details-container">
+                <div class="price">
+                    <h1 id="fee"> $125.00</h1>
+                    <span>50%</span>
+                </div>
+                <s> $250.00</s>
+            </div>
+
+            <div class="controls-container">
+                <div class="controls">
+                    <img src="./images/icon-minus.svg" alt="icon-minus" id="minus">
+                    <span id="itemNum">0</span>
+                    <img src="./images/icon-plus.svg" alt="icon-plus" id="plus">
+                </div>
+                <button class="btn" id="add-to-cart">
+                    <img src="./images/icon-cart.svg" alt="icon-cart">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
