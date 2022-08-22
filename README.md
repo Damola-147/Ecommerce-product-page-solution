@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [see my solution to this challenge](https://www.frontendmentor.io/solutions/...)
+- Solution URL: [see my solution to this challenge](https://www.frontendmentor.io/solutions/responsive-mobilefirst-solution-to-ecommerce-product-page-challenge-7hjZmkolP2)
 - Live Site URL: [view live site](https://damola-147.github.io/Ecommerce-product-page-solution/)
 
 
