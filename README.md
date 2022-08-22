@@ -39,7 +39,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [see my solution to this challenge](https://www.frontendmentor.io/solutions/...)
-- Live Site URL: [view live site](https://damola-147.github.io/.../)
+- Live Site URL: [view live site](https://damola-147.github.io/Ecommerce-product-page-solution/)
+
 
 ## My process
 
